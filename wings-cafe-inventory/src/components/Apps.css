@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px blue;
+    border-radius: 8px;
+    max-width: 1200px;
+}
+
+.containers{
+    width: 100%;
+    margin: auto;
+    /*padding: 20px;*/
+    background: white;
+    /*box-shadow: 0 0 10px blue;*/
+    border-radius: 5px;
+    max-width: 1200px;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+}
+header img:hover {
+    /* Scale the image slightly */
+    transform: scale(1.1); 
+    
+    /* Add a subtle shadow effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    
+    /* Change opacity for a fade effect */
+    opacity: 0.9; 
+    
+    /* Add a border on hover */
+    border: 2px solid #3498db; 
+    
+    /* Change filter effect (e.g., grayscale) */
+    filter: grayscale(0%); /* Original colors */
+    
+    /* Transition effect for smoothness */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease, border 0.3s ease;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+header button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 210px;
+    width: 70px;
+}
+
+header button:hover {
+    background-color: red;
+    box-shadow: 0px 5px 10px #007bff;
+    transition: 1s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
+    transition: 0.3s;
+}
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 7px blue;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+.table-wrapper {
+    width: 80%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+button.edit, button.delete {
+    background-color: royalblue;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.delete {
+    background-color: red;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#product-section, #user-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#product-section h2, #user-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+#login-form, #signup-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #login-form form, #signup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+ button#toggle-form {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 1em;
+}
+  
+.auth-toggle {
+    text-align: center;
+    margin-top: 1em;
+  }
